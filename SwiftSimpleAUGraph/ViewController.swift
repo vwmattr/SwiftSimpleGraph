@@ -28,13 +28,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playNoteOn(b:UIButton) {
-        var note:UInt32 = UInt32(b.tag)
-        var velocity:UInt32 = 100
+        let note:UInt32 = UInt32(b.tag)
+        let velocity:UInt32 = 100
         soundGenerator.playNoteOn(note, velocity: velocity)
     }
     
     @IBAction func playNoteOff(b:UIButton) {
-        var note:UInt32 = UInt32(b.tag)
+        let note:UInt32 = UInt32(b.tag)
         soundGenerator.playNoteOff(note)
     }
 
