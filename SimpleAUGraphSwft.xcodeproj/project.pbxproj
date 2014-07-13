@@ -29,13 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B02D63321944EBFA0000328A /* SwiftSimpleAUGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleAUGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02D63321944EBFA0000328A /* SimpleAUGraphSwft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAUGraphSwft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02D63361944EBFA0000328A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02D63371944EBFA0000328A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02D63391944EBFA0000328A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B02D633C1944EBFA0000328A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B02D633E1944EBFA0000328A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B02D63441944EBFA0000328A /* SwiftSimpleAUGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleAUGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02D63441944EBFA0000328A /* SimpleAUGraphSwftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAUGraphSwftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02D63491944EBFA0000328A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02D634A1944EBFA0000328A /* SwiftSimpleAUGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleAUGraphTests.swift; sourceTree = "<group>"; };
 		B02D63541944ECB90000328A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 			children = (
 				B02D63561944ECC60000328A /* LICENSE */,
 				B02D63541944ECB90000328A /* README.md */,
-				B02D63341944EBFA0000328A /* SwiftSimpleAUGraph */,
-				B02D63471944EBFA0000328A /* SwiftSimpleAUGraphTests */,
+				B02D63341944EBFA0000328A /* SimpleAUGraphSwft */,
+				B02D63471944EBFA0000328A /* SimpleAUGraphSwftTests */,
 				B02D63331944EBFA0000328A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,13 +76,13 @@
 		B02D63331944EBFA0000328A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B02D63321944EBFA0000328A /* SwiftSimpleAUGraph.app */,
-				B02D63441944EBFA0000328A /* SwiftSimpleAUGraphTests.xctest */,
+				B02D63321944EBFA0000328A /* SimpleAUGraphSwft.app */,
+				B02D63441944EBFA0000328A /* SimpleAUGraphSwftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B02D63341944EBFA0000328A /* SwiftSimpleAUGraph */ = {
+		B02D63341944EBFA0000328A /* SimpleAUGraphSwft */ = {
 			isa = PBXGroup;
 			children = (
 				B02D63581944ED2D0000328A /* CheckError.swift */,
@@ -93,6 +93,7 @@
 				B02D633E1944EBFA0000328A /* Images.xcassets */,
 				B02D63351944EBFA0000328A /* Supporting Files */,
 			);
+			name = SimpleAUGraphSwft;
 			path = SwiftSimpleAUGraph;
 			sourceTree = "<group>";
 		};
@@ -104,12 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B02D63471944EBFA0000328A /* SwiftSimpleAUGraphTests */ = {
+		B02D63471944EBFA0000328A /* SimpleAUGraphSwftTests */ = {
 			isa = PBXGroup;
 			children = (
 				B02D634A1944EBFA0000328A /* SwiftSimpleAUGraphTests.swift */,
 				B02D63481944EBFA0000328A /* Supporting Files */,
 			);
+			name = SimpleAUGraphSwftTests;
 			path = SwiftSimpleAUGraphTests;
 			sourceTree = "<group>";
 		};
@@ -124,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B02D63311944EBFA0000328A /* SwiftSimpleAUGraph */ = {
+		B02D63311944EBFA0000328A /* SimpleAUGraphSwft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02D634E1944EBFA0000328A /* Build configuration list for PBXNativeTarget "SwiftSimpleAUGraph" */;
+			buildConfigurationList = B02D634E1944EBFA0000328A /* Build configuration list for PBXNativeTarget "SimpleAUGraphSwft" */;
 			buildPhases = (
 				B02D632E1944EBFA0000328A /* Sources */,
 				B02D632F1944EBFA0000328A /* Frameworks */,
@@ -136,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftSimpleAUGraph;
+			name = SimpleAUGraphSwft;
 			productName = SwiftSimpleAUGraph;
-			productReference = B02D63321944EBFA0000328A /* SwiftSimpleAUGraph.app */;
+			productReference = B02D63321944EBFA0000328A /* SimpleAUGraphSwft.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B02D63431944EBFA0000328A /* SwiftSimpleAUGraphTests */ = {
+		B02D63431944EBFA0000328A /* SimpleAUGraphSwftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02D63511944EBFA0000328A /* Build configuration list for PBXNativeTarget "SwiftSimpleAUGraphTests" */;
+			buildConfigurationList = B02D63511944EBFA0000328A /* Build configuration list for PBXNativeTarget "SimpleAUGraphSwftTests" */;
 			buildPhases = (
 				B02D63401944EBFA0000328A /* Sources */,
 				B02D63411944EBFA0000328A /* Frameworks */,
@@ -154,9 +156,9 @@
 			dependencies = (
 				B02D63461944EBFA0000328A /* PBXTargetDependency */,
 			);
-			name = SwiftSimpleAUGraphTests;
+			name = SimpleAUGraphSwftTests;
 			productName = SwiftSimpleAUGraphTests;
-			productReference = B02D63441944EBFA0000328A /* SwiftSimpleAUGraphTests.xctest */;
+			productReference = B02D63441944EBFA0000328A /* SimpleAUGraphSwftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B02D632D1944EBFA0000328A /* Build configuration list for PBXProject "SwiftSimpleAUGraph" */;
+			buildConfigurationList = B02D632D1944EBFA0000328A /* Build configuration list for PBXProject "SimpleAUGraphSwft" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02D63311944EBFA0000328A /* SwiftSimpleAUGraph */,
-				B02D63431944EBFA0000328A /* SwiftSimpleAUGraphTests */,
+				B02D63311944EBFA0000328A /* SimpleAUGraphSwft */,
+				B02D63431944EBFA0000328A /* SimpleAUGraphSwftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		B02D63461944EBFA0000328A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B02D63311944EBFA0000328A /* SwiftSimpleAUGraph */;
+			target = B02D63311944EBFA0000328A /* SimpleAUGraphSwft */;
 			targetProxy = B02D63451944EBFA0000328A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +346,7 @@
 				INFOPLIST_FILE = SwiftSimpleAUGraph/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleAUGraphSwft;
 			};
 			name = Debug;
 		};
@@ -356,7 +358,7 @@
 				INFOPLIST_FILE = SwiftSimpleAUGraph/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleAUGraphSwft;
 			};
 			name = Release;
 		};
@@ -375,7 +377,7 @@
 				INFOPLIST_FILE = SwiftSimpleAUGraphTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleAUGraphSwftTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -391,7 +393,7 @@
 				INFOPLIST_FILE = SwiftSimpleAUGraphTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleAUGraphSwftTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -399,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B02D632D1944EBFA0000328A /* Build configuration list for PBXProject "SwiftSimpleAUGraph" */ = {
+		B02D632D1944EBFA0000328A /* Build configuration list for PBXProject "SimpleAUGraphSwft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02D634C1944EBFA0000328A /* Debug */,
@@ -408,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02D634E1944EBFA0000328A /* Build configuration list for PBXNativeTarget "SwiftSimpleAUGraph" */ = {
+		B02D634E1944EBFA0000328A /* Build configuration list for PBXNativeTarget "SimpleAUGraphSwft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02D634F1944EBFA0000328A /* Debug */,
@@ -417,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02D63511944EBFA0000328A /* Build configuration list for PBXNativeTarget "SwiftSimpleAUGraphTests" */ = {
+		B02D63511944EBFA0000328A /* Build configuration list for PBXNativeTarget "SimpleAUGraphSwftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02D63521944EBFA0000328A /* Debug */,
