@@ -12,6 +12,15 @@ class ViewController: UIViewController {
     
     var soundGenerator:SoundGenerator
     
+    @IBOutlet var targetLabel: UILabel
+    @IBOutlet var startingLabel: UILabel
+    @IBOutlet var slider: UISlider
+    var targetSet: Bool = false
+    
+    var targetNote: UInt32?
+    var startingNote: UInt32?
+    var currentNote: UInt32?
+    
     init(coder aDecoder: NSCoder!) {
         self.soundGenerator = SoundGenerator()
         super.init(coder: aDecoder)
@@ -29,6 +38,23 @@ class ViewController: UIViewController {
 
     @IBAction func playNoteOn(b:UIButton) {
         let note:UInt32 = UInt32(b.tag)
+        playThatNote(note)
+        if targetSet {
+            startingLabel.text = b.currentTitle
+            if !startingNote {
+                startingNote = UInt32(b.tag)
+                setupSlider()
+            }
+        } else {
+            targetLabel.text = b.currentTitle
+            targetNote = UInt32(b.tag)
+            targetSet = true
+            setupSlider() 
+        }
+        
+    }
+    
+    func playThatNote(note:UInt32) {
         let velocity:UInt32 = 100
         soundGenerator.playNoteOn(note, velocity: velocity)
     }
@@ -38,5 +64,24 @@ class ViewController: UIViewController {
         soundGenerator.playNoteOff(note)
     }
 
+    @IBAction func sliderChanged(sender : AnyObject) {
+        if let note = currentNote {
+            soundGenerator.playNoteOff(note)
+            currentNote = UInt32(slider.value)
+            playThatNote(currentNote!)
+        }
+        
+    }
+    
+    func setupSlider() {
+        if let target = targetNote {
+            slider.maximumValue = Float(target)
+        }
+        if let starting = startingNote {
+            slider.minimumValue = Float(starting)
+            currentNote = starting
+        }
+    }
+    
 }
 

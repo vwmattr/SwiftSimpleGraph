@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="14A283o" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SwiftSimpleAUGraph" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SimpleAUGraphSwft" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huM-Nt-OsD">
-                                <rect key="frame" x="24" y="70" width="45" height="30"/>
+                                <rect key="frame" x="24" y="141" width="45" height="30"/>
                                 <state key="normal" title="C4 60">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -27,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfD-1W-Kn5">
-                                <rect key="frame" x="24" y="100" width="45" height="30"/>
+                                <rect key="frame" x="24" y="171" width="45" height="30"/>
                                 <state key="normal" title="D4 62">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYC-Tg-I7y">
-                                <rect key="frame" x="24" y="40" width="45" height="30"/>
+                                <rect key="frame" x="24" y="111" width="45" height="30"/>
                                 <state key="normal" title="B3 59">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -47,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="64" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKq-jY-xfc">
-                                <rect key="frame" x="24" y="130" width="45" height="30"/>
+                                <rect key="frame" x="24" y="201" width="45" height="30"/>
                                 <state key="normal" title="E4 64">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -56,18 +57,8 @@
                                     <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="Wjy-5K-VOQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLY-JZ-Y1f">
-                                <rect key="frame" x="24" y="10" width="45" height="30"/>
-                                <state key="normal" title="A3 57">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eGK-Od-e9n"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="DR9-lw-KJL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="65" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NG4-my-gGH">
-                                <rect key="frame" x="24" y="160" width="45" height="30"/>
+                                <rect key="frame" x="24" y="231" width="45" height="30"/>
                                 <state key="normal" title="F4 65">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -77,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6H9-bh-Knh">
-                                <rect key="frame" x="100" y="70" width="45" height="30"/>
+                                <rect key="frame" x="100" y="141" width="45" height="30"/>
                                 <state key="normal" title="C5 72">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -87,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F0-Y8-Fhh">
-                                <rect key="frame" x="100" y="100" width="45" height="30"/>
+                                <rect key="frame" x="100" y="171" width="45" height="30"/>
                                 <state key="normal" title="D5 74">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -97,7 +88,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="79" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6T-As-QpG">
-                                <rect key="frame" x="100" y="190" width="45" height="30"/>
+                                <rect key="frame" x="100" y="261" width="45" height="30"/>
                                 <state key="normal" title="G5 79">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -107,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Iw-Jg-aKe">
-                                <rect key="frame" x="100" y="40" width="45" height="30"/>
+                                <rect key="frame" x="100" y="111" width="45" height="30"/>
                                 <state key="normal" title="B4 71">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -117,7 +108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npb-NN-v0y">
-                                <rect key="frame" x="100" y="130" width="45" height="30"/>
+                                <rect key="frame" x="100" y="201" width="45" height="30"/>
                                 <state key="normal" title="E5 76">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -126,18 +117,8 @@
                                     <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="SOE-k9-eyP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m6-Kw-erC">
-                                <rect key="frame" x="100" y="10" width="45" height="30"/>
-                                <state key="normal" title="A4 69">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fj7-X0-rcs"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="PwC-r8-r0E"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bK-th-WBj">
-                                <rect key="frame" x="100" y="160" width="45" height="30"/>
+                                <rect key="frame" x="100" y="231" width="45" height="30"/>
                                 <state key="normal" title="F5 77">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -147,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="67" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyN-eO-tRc">
-                                <rect key="frame" x="24" y="190" width="45" height="30"/>
+                                <rect key="frame" x="24" y="261" width="45" height="30"/>
                                 <state key="normal" title="G4 67">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -157,7 +138,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="84" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQq-O8-jX4">
-                                <rect key="frame" x="175" y="70" width="45" height="30"/>
+                                <rect key="frame" x="175" y="141" width="45" height="30"/>
                                 <state key="normal" title="C6 84">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -167,7 +148,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="86" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWY-Fd-3oh">
-                                <rect key="frame" x="175" y="100" width="45" height="30"/>
+                                <rect key="frame" x="175" y="171" width="45" height="30"/>
                                 <state key="normal" title="D6 86">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -177,7 +158,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="91" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQk-v4-etS">
-                                <rect key="frame" x="175" y="190" width="45" height="30"/>
+                                <rect key="frame" x="175" y="261" width="45" height="30"/>
                                 <state key="normal" title="G6 91">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -187,7 +168,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="82" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-8B-xyh">
-                                <rect key="frame" x="175" y="40" width="45" height="30"/>
+                                <rect key="frame" x="175" y="111" width="45" height="30"/>
                                 <state key="normal" title="B5 82">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -197,7 +178,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="88" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-PP-PY5">
-                                <rect key="frame" x="175" y="130" width="45" height="30"/>
+                                <rect key="frame" x="175" y="201" width="45" height="30"/>
                                 <state key="normal" title="E6 88">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -206,18 +187,8 @@
                                     <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="TZe-JO-ds6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHH-nJ-3Gc">
-                                <rect key="frame" x="175" y="10" width="45" height="30"/>
-                                <state key="normal" title="A5 81">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8rp-AD-A6R"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="4II-eK-GHs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="89" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1k1-NL-ZM6">
-                                <rect key="frame" x="175" y="160" width="45" height="30"/>
+                                <rect key="frame" x="175" y="231" width="45" height="30"/>
                                 <state key="normal" title="F6 89">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -227,7 +198,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="96" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpZ-Pq-QtX">
-                                <rect key="frame" x="250" y="70" width="45" height="30"/>
+                                <rect key="frame" x="250" y="141" width="45" height="30"/>
                                 <state key="normal" title="C7 96">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -237,7 +208,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="98" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxl-AK-GIC">
-                                <rect key="frame" x="250" y="100" width="45" height="30"/>
+                                <rect key="frame" x="250" y="171" width="45" height="30"/>
                                 <state key="normal" title="D7 98">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -247,7 +218,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKQ-rW-ctm">
-                                <rect key="frame" x="250" y="190" width="50" height="30"/>
+                                <rect key="frame" x="250" y="261" width="50" height="30"/>
                                 <state key="normal" title="G7 103">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -256,38 +227,8 @@
                                     <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="N7M-na-reX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-a9-cYC">
-                                <rect key="frame" x="250" y="130" width="48" height="30"/>
-                                <state key="normal" title="E7 100">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0eP-Un-gZV"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="TT3-Ed-Hha"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="93" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeP-oZ-NbZ">
-                                <rect key="frame" x="250" y="10" width="45" height="30"/>
-                                <state key="normal" title="A6 93">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qze-Cr-aU7"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="75e-EU-PqK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxT-c9-gQ2">
-                                <rect key="frame" x="250" y="160" width="48" height="30"/>
-                                <state key="normal" title="F7 101">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dmf-Ka-tIm"/>
-                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="PCu-cl-CWC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="94" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAf-fF-Yg8">
-                                <rect key="frame" x="250" y="40" width="45" height="30"/>
+                                <rect key="frame" x="250" y="111" width="45" height="30"/>
                                 <state key="normal" title="B6 94">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -296,9 +237,108 @@
                                     <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="4tX-Fk-rUM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-a9-cYC">
+                                <rect key="frame" x="250" y="201" width="48" height="30"/>
+                                <state key="normal" title="E7 100">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0eP-Un-gZV"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="TT3-Ed-Hha"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxT-c9-gQ2">
+                                <rect key="frame" x="250" y="231" width="48" height="30"/>
+                                <state key="normal" title="F7 101">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dmf-Ka-tIm"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="PCu-cl-CWC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Target:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfN-DZ-imC">
+                                <rect key="frame" x="24" y="329" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starting:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsY-tW-R7Y">
+                                <rect key="frame" x="175" y="329" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XON-sV-R0J">
+                                <rect key="frame" x="248" y="329" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jtQ-gy-wDX">
+                                <rect key="frame" x="29" y="397" width="268" height="31"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="fJx-8u-b8q"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLY-JZ-Y1f">
+                                <rect key="frame" x="24" y="81" width="45" height="30"/>
+                                <state key="normal" title="A3 57">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="MYl-kQ-60p"/>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eGK-Od-e9n"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="DR9-lw-KJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m6-Kw-erC">
+                                <rect key="frame" x="100" y="81" width="45" height="30"/>
+                                <state key="normal" title="A4 69">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="d4H-4d-6R5"/>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fj7-X0-rcs"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="PwC-r8-r0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHH-nJ-3Gc">
+                                <rect key="frame" x="175" y="81" width="45" height="30"/>
+                                <state key="normal" title="A5 81">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8rp-AD-A6R"/>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="Ky6-aH-6sg"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="4II-eK-GHs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="93" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeP-oZ-NbZ">
+                                <rect key="frame" x="250" y="81" width="45" height="30"/>
+                                <state key="normal" title="A6 93">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qze-Cr-aU7"/>
+                                    <action selector="playNoteOff:" destination="vXZ-lx-hvc" eventType="touchDragOutside" id="aD8-14-k47"/>
+                                    <action selector="playNoteOn:" destination="vXZ-lx-hvc" eventType="touchDown" id="75e-EU-PqK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTS-4S-6cP">
+                                <rect key="frame" x="78" y="329" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="jtQ-gy-wDX" id="Lda-pW-JzO"/>
+                        <outlet property="startingLabel" destination="XON-sV-R0J" id="FgP-Df-HRs"/>
+                        <outlet property="targetLabel" destination="rTS-4S-6cP" id="29C-jU-Hzr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
